@@ -1,0 +1,231 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"build_system": "Build Debug",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Build Debug",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Build Debug",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/maxim/Documents/GitHub/Metroidvania/Metroidvania.sublime-project",
+		"/A/Games/NSFW/OhDaddy-0.3-pc/renpy/common/00console.rpy",
+		"/A/Games/NSFW/MyTuitionAcademia-0.6.3-pc/renpy/common/00console.rpy",
+		"/A/Games/NSFW/LoSeSb-21.8.0a-pc/README.md",
+		"/C/Users/maxim/AppData/LocalLow/Unaware Team/Unaware of the World/Save Data/SaveData1.es3",
+		"/A/Games/SFW/City.Car.Driving.v1.5.9.2/data/config/bindings/presets/City Car Driving Home Edition/keyboard.default.xml",
+		"/A/Games/SFW/City.Car.Driving.v1.5.9.2/data/config/bindings/City_Car_Driving_Home_Edition.xml",
+		"/A/Games/SFW/City.Car.Driving.v1.5.9.2/data/config/bindings/basePreset.xml",
+		"/C/Users/maxim/AppData/Local/Temp/7zE0CE15F0D/Main.class",
+		"/A/Games/NSFW/DevilishBusiness-0.64-pc/renpy/common/00console.rpy",
+		"/A/Games/NSFW/TheHardWay-0.05.5-pc/renpy/script.py",
+		"/A/Games/NSFW/OnceAPornATime_0.29.1-pc/renpy/common/00console.rpy",
+		"/A/Games/NSFW/TheHardWay-0.05.5-pc/renpy/common/00console.rpy",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/Header/OpenGL/BugCheck.h",
+		"/C/Users/maxim/AppData/Roaming/Anki2/addons21/3918629684/model.py",
+		"/C/Users/maxim/AppData/Roaming/Anki2/addons21/3918629684/notetypes.py",
+		"/C/Users/maxim/curseforge/minecraft/Instances/TekTopia VillageCraft/saves/§6New Land/stats/571b8fdc-88ae-4ab2-9e4d-6b1cd729b685.json",
+		"/C/Users/maxim/AppData/Local/Temp/7zE0F4E0993/Village.class",
+		"/C/Users/maxim/curseforge/minecraft/Instances/TekTopia VillageCraft/saves/§6New Land/data/Village.dat",
+		"/C/Users/maxim/curseforge/minecraft/Instances/TekTopia VillageCraft/mods/tektopia-1.1.0.jar",
+		"/A/Games/NSFW/SinfulValley-0.6-pc/renpy/common/00console.rpy",
+		"/A/Games/NSFW/MyTuitionAcademia-0.1.5-market/game/saves/1-1-LT1.save",
+		"/C/Users/maxim/AppData/Roaming/yuzu/keys/prod.keys",
+		"/A/Torrents/Autodesk 3ds Max 2017 Final Edition (x64) + Keygen/Info.nfo",
+		"/A/Programming/VS/C++/Project1/Project1/Src/CPP/Texture.cpp",
+		"/A/Programming/VS/C++/Project1/Project1/Src/Header/Texture.h",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/CPP/OpenGL/Shader.cpp",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/CPP/OpenGL/BugCheck.cpp",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/Header/OpenGL/Errors.h",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/CPP/OpenGL/iBuffer.cpp",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/CPP/OpenGL/vBuffer.cpp",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/CPP/OpenGL/vArray.cpp",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/Header/OpenGL/Shader.h",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/Header/OpenGL/Renderer.h",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/Header/OpenGL/vArray.h",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/Header/OpenGL/vBuffer.h",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/Header/OpenGL/vBufferLayout.h",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/Header/OpenGL/iBuffer.h",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/CPP/OpenGL/Renderer.cpp",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/RES/Graphics/Shaders/basic.shader",
+		"/A/Programming/VS/C++/OpenGL/OpenGL/SRC/CPP/main.cpp",
+		"/C/Users/maxim/Documents/TransVoiceLessons website/tvl.html",
+		"/C/Program Files/WindowsApps/Microsoft.Maine_1.10.5.0_x64__8wekyb3d8bbwe/Resources/en/resources.resw",
+		"/A/Games/NSFW/Mynewneighbors-0.9-pc/renpy/common/00console.rpy",
+		"/C/Program Files (x86)/Steam/steamapps/common/Just Deserts/JustDeserts.py",
+		"/C/Program Files (x86)/Steam/steamapps/common/Just Deserts/JustDeserts.sh",
+		"/C/Program Files (x86)/Steam/steamapps/common/Just Deserts/game/console.rpy",
+		"/C/Program Files (x86)/Steam/steamapps/common/Just Deserts/renpy/common/00console.rpyc",
+		"/C/Program Files (x86)/Steam/steamapps/common/Just Deserts/renpy/common/00console.rpy",
+		"/C/Program Files (x86)/Steam/steamapps/common/Just Deserts/game/saves/Damien (Day 1, Morning) [2021-06-29 05-40-28]-LT1.save",
+		"/C/Program Files (x86)/Steam/steamapps/common/Doom 2/base/doom2.conf",
+		"/A/Games/NSFW/UnderShmunder/data.win",
+		"/A/Games/NSFW/Kingmaker-0.9.1-pc/renpy/common/00console.rpy",
+		"/C/Users/maxim/AliceAwakening/save.save"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 210.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
