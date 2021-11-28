@@ -11,7 +11,7 @@ RenderWindow::RenderWindow(const char* pStrTitle, int pIntWidth, int pIntHeight)
 		std::cout<<"Window failed to initialize: "<<SDL_GetError()<<std::endl;
 	}
 
-	render = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+	render = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 }
 
 RenderWindow::~RenderWindow()
@@ -44,11 +44,14 @@ void RenderWindow::Clear()
 
 void RenderWindow::Render(Entity& pEntity)
 {
-	sRect = pEntity.sdlGetRect();
-	dRect.x = pEntity.fGetFloatX();
-	dRect.y = pEntity.fGetFloatY();
-	dRect.w = pEntity.sdlGetRect().w;
-	dRect.h = pEntity.sdlGetRect().h;
+	sRect = pEntity.sdlGetSrcRect();
+	dRect.x = pEntity.getfPos().x;
+	dRect.y = pEntity.getfPos().y;
+	dRect.w = pEntity.sdlGetDstRect().w;
+	dRect.h = pEntity.sdlGetDstRect().h;
+
+	// sRect.w = sRect.h = 32;
+	// dRect.w = dRect.h = 48;
 	SDL_RenderCopy(render, pEntity.sdlGetTexp(), &sRect, &dRect);
 }
 
