@@ -26,16 +26,13 @@ int main(int argc, char* args[])
 	SDL_Texture* collisionSheet = window.sdlLoadTexture("ASSETS/IMG/SPR/spr_metroidvania_col.png");
 
 	std::vector<Entity> entities = 
-		{Entity(Vector2f{0, 48}, collisionSheet, Vector2i{0, 1}, Vector2i{48, 48}), 
-		 Entity(Vector2f{48, 48}, collisionSheet, Vector2i{1, 1}, Vector2i{48, 48}), 
-		 Entity(Vector2f{96, 0}, collisionSheet, Vector2i{2, 2}, Vector2i{48, 48}),
-		 Entity(Vector2f{144, 48}, collisionSheet, Vector2i{3, 1}, Vector2i{48, 48}),
-		 Entity(Vector2f{192, 48}, collisionSheet, Vector2i{4, 1}, Vector2i{48, 48}),
-		 Entity(Vector2f{240, 48}, collisionSheet, Vector2i{5, 1}, Vector2i{48, 48}),
-		 Entity(Vector2f{288, 48}, collisionSheet, Vector2i{6, 1}, Vector2i{48, 48}),
-		 Entity(Vector2f{336, 48}, collisionSheet, Vector2i{7, 1}, Vector2i{48, 48})
+		{
+			Entity(Vector2f(((6)+1)*48, (6)*48), collisionSheet, Vector2i(2,2),Vector2i(48,48)),
+			Entity(Vector2f(((2)+1)*48, (4)*48), collisionSheet, Vector2i(3,1), Vector2i(48,48)),
+			Entity(Vector2f(((7)+1)*48, (3)*48), collisionSheet, Vector2i(3,1), Vector2i(48,48)),
+			Entity(Vector2f(((7)+1)*48, (1)*48), collisionSheet, Vector2i(3,1), Vector2i(48,48))
 		};
-	 Map map(9, 8, "ASSETS/DATA/MAPS/testmap.txt");
+	 Map map(14, 11, "ASSETS/DATA/MAPS/testmap.txt");
 	 std::vector<Entity> eMap;
 	 int cntX = 0;
 	 int cntY = 0;
@@ -78,10 +75,10 @@ int main(int argc, char* args[])
 		 	window.Render(e);
 		 }
 
-		 // for(Entity& e : entities)
-		 // {
-		 // 	window.Render(e);
-		 // }
+		 for(Entity& e : entities)
+		 {
+		 	window.Render(e);
+		 }
 
 
 
