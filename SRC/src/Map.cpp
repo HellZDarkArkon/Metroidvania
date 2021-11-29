@@ -47,21 +47,22 @@ void Map::ifStream()
 
 			iMap.push_back(temp1);
 		}
-
-		for(int& i: iMap)
-		{
-			if(i == 0xFF)
-			{
-				std::cout<<std::endl;
-			}
-			else if(i != 0xFF)
-			{
-				std::cout<<i<<" ";
-			}
-		}
-		iFile.close();
-		
 	}
+
+	iFile.close();
+
+	for(int& i: iMap)
+	{
+		if(i == 0xFF)
+		{
+			std::cout<<std::endl;
+		}
+		else if(i != 0xFF)
+		{
+			std::cout<<i<<" ";
+		}
+	}
+
 }
 
 int Map::iGetMapX()

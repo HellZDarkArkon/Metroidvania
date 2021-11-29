@@ -35,28 +35,28 @@ int main(int argc, char* args[])
 		 Entity(Vector2f{288, 48}, collisionSheet, Vector2i{6, 1}, Vector2i{48, 48}),
 		 Entity(Vector2f{336, 48}, collisionSheet, Vector2i{7, 1}, Vector2i{48, 48})
 		};
-	Map map(8, 8, "ASSETS/DATA/MAPS/testmap.txt");
-	std::vector<Entity> eMap;
-	int cntX = 0;
-	int cntY = 0;
-	for(int& i: map.iGetVecMap())
-	{
-		std::cout<<map.iGetVecMap().at(i);
-		if(map.iGetVecMap().at(i) == 0xF)
-		{
-			cntY++;
-			std::cout<<"0xFF"<<std::endl;
-		}
-		eMap.push_back(Entity(Vector2f(cntX*48,cntY*48), collisionSheet, Vector2i(map.iGetVecMap().at(i), 1), Vector2i(48, 48)));
+	 Map map(9, 8, "ASSETS/DATA/MAPS/testmap.txt");
+	 std::vector<Entity> eMap;
+	 int cntX = 0;
+	 int cntY = 0;
+	 std::cout<<std::endl;
+	 for(int i = 0; i < map.iGetVecMap().size(); i++)
+	 {
+	 	cntX = i % map.iGetMapX();
+	 	cntY = i / map.iGetMapX();
+	 	// if(map.iGetVecMap().at(i) == 0xFF)
+	 	// {
+	 	// 	++i;
+	 	// }
+	 	// else
+	 	// {
+	 		std::cout<<(cntX)<<" ";
+	 		std::cout<<(cntY)<<std::endl;
+	 		cntX++;
 
-		if(cntX < 7)
-		{
-			++cntX;
-		}
-		else if(cntX >= 7)
-		{
-			cntX = 0;
-		}
+	 		eMap.push_back(Entity(Vector2f(cntX*48,cntY*48), collisionSheet, Vector2i(map.iGetVecMap().at(i), 1), Vector2i(48, 48)));
+	 	// }
+	 	
 	}
 
 	bool bRunning = true;
@@ -78,10 +78,10 @@ int main(int argc, char* args[])
 		 	window.Render(e);
 		 }
 
-		 for(Entity& e : entities)
-		 {
-		 	window.Render(e);
-		 }
+		 // for(Entity& e : entities)
+		 // {
+		 // 	window.Render(e);
+		 // }
 
 
 
