@@ -3,15 +3,10 @@
 #include <iostream>
 #include <stdlib.h>
 
-Map::Map(int pMapX, int pMapY, const char* pStrMap) : strMap(NULL), mapX(pMapX), mapY(pMapY)
+Map::Map(Vector2i pMapSize, const char* pStrMap) : strMap(pStrMap), mapSize(pMapSize)
 {
-	iFile.open(pStrMap);
+	iFile.open(strMap);
 	ifStream();
-}
-
-Map::Map() : strMap(NULL), mapX(0), mapY(0)
-{
-	
 }
 
 
@@ -20,20 +15,22 @@ Map::~Map()
 
 }
 
-void Map::setMapSize(int pMapX, int pMapY)
+void Map::setMapSize(Vector2i pMapSize)
 {
-	mapX = pMapX;
-	mapY = pMapY;
+	mapSize = pMapSize;
 }
 
 void Map::vLoadMap(const char* pStrMap)
 {
-	iFile.open(pStrMap);
+	strMap = pStrMap;
+	iFile.open(strMap);
+	ifStream();
 }
 
 void Map::vUnloadMap()
 {
 	iFile.close();
+	strMap = NULL;
 }
 
 void Map::ifStream()
@@ -65,14 +62,9 @@ void Map::ifStream()
 
 }
 
-int Map::iGetMapX()
+Vector2i Map::iGetMapSize()
 {
-	return mapX;
-}
-
-int Map::iGetMapY()
-{
-	return mapY;
+	return mapSize;
 }
 
 std::vector<int> Map::iGetVecMap()

@@ -6,22 +6,22 @@
 #include <fstream>
 #include <stdlib.h>
 
+#include "Math.h"
+
 class Map
 {
 public:
 
-	Map(int pMapX, int pMapY, const char* pStrMap);
-	Map();
+	Map(Vector2i pMapSize, const char* pStrMap);
 	~Map();
 
 	void vLoadMap(const char* strMap);
 	void vUnloadMap();
 	void ifStream();
-	void setMapSize(int pMapX, int pMapY);
+	void setMapSize(Vector2i pMapSize);
 
 	std::vector<int> iGetVecMap();
-	int iGetMapX();
-	int iGetMapY();
+	Vector2i iGetMapSize();
 
 	
 
@@ -30,6 +30,6 @@ private:
 	const char* strMap;
 	std::vector<int> iMap;
 
-	int mapX, mapY;
+	Vector2i mapSize;
 	std::ifstream iFile{};
 };
